@@ -7,7 +7,9 @@ Environment=SPOTDRAIN_NOMAD_TOKEN=
 Environment=DD_CLIENT_APP_KEY=
 Environment=DD_CLIENT_API_KEY=
 ExecStart=/opt/spotdrain/bin/spotdrain
-Restart=on-failure
+Restart=always
+RestartSec=45
+StartLimitIntervalSec=0
 
 [Install]
 WantedBy=multi-user.target
