@@ -6,6 +6,7 @@ After=nomad.service
 Environment=SPOTDRAIN_NOMAD_TOKEN=
 Environment=DD_CLIENT_APP_KEY=
 Environment=DD_CLIENT_API_KEY=
+Environment=DD_ENV=
 ExecStart=/opt/spotdrain/bin/spotdrain
 Restart=always
 RestartSec=45
