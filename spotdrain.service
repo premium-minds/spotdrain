@@ -1,6 +1,7 @@
 [Unit]
 Description=SpotDrain, Nomad Spot Instance Notification and Eviction Daemon
 After=nomad.service
+StartLimitIntervalSec=0
 
 [Service]
 Environment=SPOTDRAIN_NOMAD_TOKEN=
@@ -9,7 +10,6 @@ Environment=DD_CLIENT_API_KEY=
 ExecStart=/opt/spotdrain/bin/spotdrain
 Restart=always
 RestartSec=45
-StartLimitIntervalSec=0
 
 [Install]
 WantedBy=multi-user.target
