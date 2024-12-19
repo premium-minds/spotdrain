@@ -9,15 +9,17 @@ require (
 )
 
 require (
-	github.com/DataDog/zstd v1.5.0 // indirect
-	github.com/golang/protobuf v1.2.0 // indirect
+	github.com/DataDog/zstd v1.5.2 // indirect
+	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
 	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
-	google.golang.org/appengine v1.4.0 // indirect
+	golang.org/x/oauth2 v0.10.0 // indirect
+	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 )
 
 require (
-	github.com/DataDog/datadog-api-client-go/v2 v2.9.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.34.0
 	github.com/aws/aws-sdk-go-v2 v1.17.5 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/cronexpr v1.1.1 // indirect
