@@ -1,6 +1,8 @@
 module spotdrain
 
-go 1.18
+go 1.22
+
+toolchain go1.22.10
 
 require (
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.23
