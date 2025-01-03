@@ -8,6 +8,7 @@ Environment=SPOTDRAIN_NOMAD_TOKEN=
 Environment=DD_CLIENT_APP_KEY=
 Environment=DD_CLIENT_API_KEY=
 Environment=DD_ENV=
+ExecCondition=/bin/sh -c 'test $(curl -s --fail http://169.254.169.254/latest/meta-data/instance-life-cycle) = "spot"'
 ExecStart=/opt/spotdrain/bin/spotdrain
 Restart=always
 RestartSec=45
