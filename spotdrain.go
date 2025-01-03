@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -138,7 +138,7 @@ func isSpotInstance(client *imds.Client) bool {
 		log.Fatal("Fatal: ", err)
 	}
 
-	bytes, err := ioutil.ReadAll(output.Content)
+	bytes, err := io.ReadAll(output.Content)
 	if err != nil {
 		log.Fatal("Fatal: ", err)
 	}
@@ -153,7 +153,7 @@ func getEC2InstanceId(client *imds.Client) string {
 		log.Fatal("Fatal: ", err)
 	}
 
-	bytes, err := ioutil.ReadAll(output.Content)
+	bytes, err := io.ReadAll(output.Content)
 	if err != nil {
 		log.Fatal("Fatal: ", err)
 	}
@@ -180,7 +180,7 @@ func checkMarkedForInterruption(client *imds.Client) bool {
 		log.Fatal("Fatal: ", err)
 	}
 
-	bytes, err := ioutil.ReadAll(output.Content)
+	bytes, err := io.ReadAll(output.Content)
 	if err != nil {
 		log.Fatal("Fatal: ", err)
 	}
