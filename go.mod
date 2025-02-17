@@ -6,7 +6,7 @@ toolchain go1.22.10
 
 require (
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.28
-	github.com/aws/smithy-go v1.22.2
+	github.com/aws/smithy-go v1.22.3
 	github.com/hashicorp/nomad/api v0.0.0-20230227181747-542b23e999b5
 )
 
