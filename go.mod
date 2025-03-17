@@ -1,7 +1,7 @@
 module spotdrain
 
 go 1.22
-toolchain go1.23.7
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30
@@ -22,7 +22,7 @@ require (
 )
 
 require (
-	github.com/DataDog/datadog-api-client-go/v2 v2.35.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.36.1
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/cronexpr v1.1.1 // indirect
