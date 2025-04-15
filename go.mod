@@ -22,7 +22,7 @@ require (
 )
 
 require (
-	github.com/DataDog/datadog-api-client-go/v2 v2.36.1
+	github.com/DataDog/datadog-api-client-go/v2 v2.37.1
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/cronexpr v1.1.1 // indirect
