@@ -5,8 +5,8 @@ go 1.23.0
 toolchain go1.24.1
 
 require (
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.9
-	github.com/aws/smithy-go v1.23.0
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.10
+	github.com/aws/smithy-go v1.23.1
 	github.com/hashicorp/nomad/api v0.0.0-20230227181747-542b23e999b5
 )
 
@@ -20,7 +20,7 @@ require (
 
 require (
 	github.com/DataDog/datadog-api-client-go/v2 v2.47.0
-	github.com/aws/aws-sdk-go-v2 v1.39.2 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.39.3 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/cronexpr v1.1.1 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
