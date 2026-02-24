@@ -14,12 +14,13 @@ require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/google/uuid v1.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/oauth2 v0.27.0 // indirect
 )
 
 require (
-	github.com/DataDog/datadog-api-client-go/v2 v2.54.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.55.0
 	github.com/aws/aws-sdk-go-v2 v1.41.1 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/cronexpr v1.1.1 // indirect
